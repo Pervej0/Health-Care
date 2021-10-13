@@ -16,11 +16,12 @@ const useFirebase = () => {
   const [user, setUser] = useState(null);
   const [error, setError] = useState("");
 
-  const facebookSignin = () => {
+  const facebookSignin = (from, history) => {
     const provider = new FacebookAuthProvider();
     signInWithPopup(auth, provider)
       .then((result) => {
         const userInfo = result.user;
+        history.replace(from);
         setUser(userInfo);
       })
       .catch((error) => {
@@ -34,7 +35,7 @@ const useFirebase = () => {
     signInWithPopup(auth, provider)
       .then((result) => {
         const userInfo = result.user;
-        history.push(from);
+        history.replace(from);
         setUser(userInfo);
       })
       .catch((error) => {
