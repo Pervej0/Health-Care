@@ -1,0 +1,44 @@
+[
+  {
+    "id": 0,
+    "title": "Healthcare Business Concept",
+    "time": 2.5,
+    "description": "When you visit UCLA Health, you’ll gain access to advanced technology, treatments and research that may not be available elsewhere.",
+    "img": "https://i.ibb.co/Sm5GhWF/Healthcare-business-concept-Medical-examination-and-growth-graph-data-of-business-on-tablet-with-doc.jpg"
+  },
+  {
+    "id": 1,
+    "title": "Efficient Pharmaccy Operation",
+    "time": 1.5,
+    "description": "When you visit UCLA Health, you’ll gain access to advanced technology, treatments and research that may not be available elsewhere.",
+    "img": "https://i.ibb.co/5W6mDLb/Shot-of-a-young-woman-doing-inventory-in-a-pharmacy-on-a-digital-tablet-with-her-colleague-in-the-ba.jpg"
+  },
+  {
+    "id": 2,
+    "title": "Gray Gatch Bed in Hospital",
+    "time": 2.5,
+    "description": "When you visit UCLA Health, you’ll gain access to advanced technology, treatments and research that may not be available elsewhere.",
+    "img": "https://i.ibb.co/NCZ7tk8/service4.jpg"
+  },
+  {
+    "id": 3,
+    "title": "Labortary Benefit",
+    "time": 2.5,
+    "description": "When you visit UCLA Health, you’ll gain access to advanced technology, treatments and research that may not be available elsewhere.",
+    "img": "https://i.ibb.co/K2Pk01s/service3.jpg"
+  },
+  {
+    "id": 4,
+    "title": "Home Caregiver",
+    "time": 8,
+    "description": "When you visit UCLA Health, you’ll gain access to advanced technology, treatments and research that may not be available elsewhere.",
+    "img": "https://i.ibb.co/tLS7ddP/Home-caregiver-helping-a-senior-man-standing-up-at-home.jpg"
+  },
+  {
+    "id": 5,
+    "title": "Hotline Facilities",
+    "time": 0.1,
+    "description": "When you visit UCLA Health, you’ll gain access to advanced technology, treatments and research that may not be available elsewhere.",
+    "img": "https://i.ibb.co/TMdSVRn/service6.jpg"
+  }
+]
