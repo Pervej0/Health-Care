@@ -4,11 +4,12 @@ import Slide1 from "../../../Images/slider/slide1.jpg";
 import Slide2 from "../../../Images/slider/slide2.jpg";
 import Slide3 from "../../../Images/slider/slide3.jpg";
 import Slide4 from "../../../Images/slider/slide4.jpg";
+import "./CarouselSlide.css";
 
 const CarouselSlide = () => {
   return (
     <Carousel>
-      <Carousel.Item interval={1000} style={{ height: "90vh" }}>
+      <Carousel.Item className="slider-item" interval={1000}>
         <img
           className="d-block w-100 img-fluid"
           src={Slide1}
@@ -22,7 +23,7 @@ const CarouselSlide = () => {
           <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
         </Carousel.Caption>
       </Carousel.Item>
-      <Carousel.Item interval={500} style={{ height: "90vh" }}>
+      <Carousel.Item interval={500} className="slider-item">
         <img className="d-block w-100" src={Slide2} alt="Second slide" />
         <Carousel.Caption
           className="p-2"
@@ -32,7 +33,7 @@ const CarouselSlide = () => {
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
         </Carousel.Caption>
       </Carousel.Item>
-      <Carousel.Item style={{ height: "90vh" }}>
+      <Carousel.Item className="slider-item">
         <img className="d-block w-100" src={Slide3} alt="Third slide" />
         <Carousel.Caption
           className="p-2"
@@ -44,7 +45,7 @@ const CarouselSlide = () => {
           </p>
         </Carousel.Caption>
       </Carousel.Item>
-      <Carousel.Item style={{ height: "90vh" }}>
+      <Carousel.Item className="slider-item">
         <img className="d-block w-100" src={Slide4} alt="Fourth slide" />
         <Carousel.Caption
           className="p-2"

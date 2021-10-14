@@ -3,6 +3,7 @@ import { Container, Nav, Navbar } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import useAuth from "../../hooks/useAuth";
 import useFirebase from "../../hooks/useFirebase";
+import { HashLink } from "react-router-hash-link";
 
 const Header = () => {
   // const { user, logOut } = useFirebase();
@@ -22,10 +23,18 @@ const Header = () => {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto ps-md-5">
-            <Nav.Link href="/home#">Home</Nav.Link>
-            <Nav.Link href="/home#services">Services</Nav.Link>
-            <Nav.Link href="/home#about">About</Nav.Link>
-            <Nav.Link href="/home#expert">Experts</Nav.Link>
+            <Nav.Link as={HashLink} to="/home#">
+              Home
+            </Nav.Link>
+            <Nav.Link as={HashLink} to="/home#services">
+              Services
+            </Nav.Link>
+            <Nav.Link as={HashLink} to="/home#about">
+              About
+            </Nav.Link>
+            <Nav.Link as={HashLink} to="/home#expert">
+              Experts
+            </Nav.Link>
           </Nav>
           <Nav>
             <hr className="bg-light" />

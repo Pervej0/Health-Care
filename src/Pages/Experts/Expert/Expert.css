@@ -1,0 +1,19 @@
+.icon-field {
+  margin: 10px 0px;
+}
+
+.icon-field i {
+  display: inline-block;
+  padding: 10px 12px;
+  margin: 0px 6px;
+  font-size: 16px;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  transition: 0.4s all ease;
+}
+
+.icon-field i:hover {
+  background-color: rgb(15, 112, 240);
+  border: 1px solid rgba(15, 112, 240, 0.3);
+  color: #fff;
+}

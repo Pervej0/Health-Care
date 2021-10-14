@@ -1,0 +1,12 @@
+.card-field {
+  overflow: hidden;
+}
+
+.card-field img {
+  transform: scale(1);
+  transition: all 0.3s ease-in-out;
+}
+
+.card-field:hover img {
+  transform: scale(1.1);
+}
